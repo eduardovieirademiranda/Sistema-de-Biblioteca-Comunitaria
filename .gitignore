@@ -1,0 +1,25 @@
+# Ignore arquivos do sistema operacional
+Thumbs.db
+.DS_Store
+
+# Ignore arquivos temporários e de backup
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Ignore logs
+*.log
+
+# Ignore arquivos do VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# Ignore arquivos do MySQL Workbench
+*.mwb.bak
+*.sqlhistory
+
+# Ignore arquivos de cache
+cache/
+tmp/
