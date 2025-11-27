@@ -166,7 +166,7 @@ Inserção dos dados principais (INSERT)
 Atualizações de dados (UPDATE)
 Remoções de registros (DELETE)
 Consultas SQL com diferentes cláusulas (SELECT, JOIN, WHERE, ORDER BY, LIMIT, GROUP BY)
-====================================================================================
+=======================================================================
 5. Conferir se as tabelas foram criadas
 SHOW TABLES;
 
