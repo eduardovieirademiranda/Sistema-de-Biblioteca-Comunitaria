@@ -144,29 +144,46 @@ Para rodar corretamente todo o banco de dados do projeto, siga os passos abaixo:
 1. Abrir o ambiente de desenvolvimento
 
 Use um dos seguintes:
+
 MySQL Workbench
+
 VSCode com extensão SQL
+
 Outro cliente MySQL compatível
-=======================================================================
+
 2. Conectar ao servidor MySQL
+
 Acesse sua conexão local (geralmente localhost com usuário root).
+
 Insira sua senha configurada no MySQL.
+
 3. Carregar o arquivo script.sql
+
 No Workbench:
+
 Vá em File > Open SQL Script
+
 Selecione o arquivo script.sql deste repositório
+
 O conteúdo será exibido no editor SQL
-=======================================================================
+
 4. Executar o script completo
+
 Clique no ícone de raio (Execute) ou use o atalho CTRL + SHIFT + Enter.
+
 O script realiza automaticamente:
+
 Criação do banco: SistemaBibliotecaComunitaria
+
 Criação de todas as tabelas (DDL)
+
 Inserção dos dados principais (INSERT)
+
 Atualizações de dados (UPDATE)
+
 Remoções de registros (DELETE)
-Consultas SQL com diferentes cláusulas (SELECT, JOIN, WHERE, ORDER BY, LIMIT, GROUP BY)
-=======================================================================
+
+Consultas SQL com diferentes cláusulas (SELECT, JOIN, WHERE, ORDER BY, LIMIT, GROUP BY)=============================================
 5. Conferir se as tabelas foram criadas
 SHOW TABLES;
 
