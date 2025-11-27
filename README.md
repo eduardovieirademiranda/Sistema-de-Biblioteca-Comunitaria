@@ -34,25 +34,25 @@ As tabelas foram criadas no MySQL seguindo o modelo lógico do minimundo.
 
 ---
 
-# 📥 2. Inserção de Dados (INSERT)
+## 🧩 2. Inserção de Dados (INSERT)
 
-### ✔ Inserindo Biblioteca  
-![Insert Biblioteca](imagens/Insert biblioteca.PNG)
+### ✔ Inserindo Biblioteca
+![Insert Biblioteca](imagens/insert_biblioteca.png)
 
-### ✔ Inserindo Livros  
-![Insert Livros](imagens/Insert Livros.PNG)
+### ✔ Inserindo Livros
+![Insert Livros](imagens/insert_livros.png)
 
-### ✔ Inserindo Leitores  
-![Insert Leitores](imagens/Insert Leitores.PNG)
+### ✔ Inserindo Leitores
+![Insert Leitores](imagens/insert_leitores.png)
 
-### ✔ Inserindo Funcionários  
-![Insert Funcionario](imagens/Insert Funcionario.PNG)
+### ✔ Inserindo Funcionários
+![Insert Funcionarios](imagens/insert_funcionario.png)
 
-### ✔ Inserindo Empréstimos  
-![Insert Emprestimo](imagens/Insert Emprestimo.PNG)
+### ✔ Inserindo Empréstimos
+![Insert Emprestimo](imagens/insert_emprestimo.png)
 
-### ✔ Inserindo Itens de Empréstimo  
-![Insert ItemEmpre](imagens/Insert ItemEmpre.PNG)
+### ✔ Inserindo Itens de Empréstimo
+![Insert ItemEmpre](imagens/insert_itemempre.png)
 
 ---
 
