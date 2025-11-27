@@ -6,8 +6,44 @@ Este repositório contém a implementação completa do banco de dados do **Sist
 ---
 
 ## 📁 Estrutura do Projeto
+# 📚 Sistema de Biblioteca Comunitária  
+Atividade 4 — Banco de Dados (SQL + GitHub)
 
+Este repositório contém a implementação completa do banco de dados do **Sistema de Biblioteca Comunitária**, incluindo criação de tabelas, inserção de dados, consultas SQL, atualizações, remoções e documentação com prints de execução.
 
+---
+
+## 📁 Estrutura do Projeto
+
+```bash
+Sistema-de-Biblioteca-Comunitaria/
+├── script.sql
+├── README.md
+└── imagens/
+    ├── Biblioteca.PNG
+    ├── Livros.PNG
+    ├── Leitores.PNG
+    ├── Funcionario.PNG
+    ├── Emprestimo.PNG
+    ├── ItemEmpre.PNG
+    ├── Insert_biblioteca.PNG
+    ├── Insert_Livros.PNG
+    ├── Insert_Leitores.PNG
+    ├── Insert_Funcionario.PNG
+    ├── Insert_Emprestimo.PNG
+    ├── Insert_ItemEmpre.PNG
+    ├── Upadate-1.PNG
+    ├── Upadate-2.PNG
+    ├── Upadate-3.PNG
+    ├── Delete-1.PNG
+    ├── Delete-2.PNG
+    ├── Delete-3.PNG
+    ├── Join.PNG
+    ├── Where+Order By.PNG
+    ├── Limit.PNG
+    ├── Like.PNG
+    └── Count.PNG
+```
 ---
 
 # 🏗️ 1. Criação das Tabelas (DDL)
@@ -101,49 +137,43 @@ As tabelas foram criadas no MySQL seguindo o modelo lógico do minimundo.
 
 ---
 
-## ▶️ Como executar o script SQL
+▶️ Como executar o script SQL
 
 Para rodar corretamente todo o banco de dados do projeto, siga os passos abaixo:
 
-### 1. Abrir o ambiente de desenvolvimento
+1. Abrir o ambiente de desenvolvimento
+
 Use um dos seguintes:
-- **MySQL Workbench**  
-- **VSCode com extensão SQL**  
-- **Outro cliente MySQL compatível**
-
-### 2. Conectar ao servidor MySQL
-- Acesse sua conexão local (geralmente *localhost* com usuário *root*).  
-- Insira sua senha configurada no MySQL.
-
-### 3. Carregar o arquivo `script.sql`
+MySQL Workbench
+VSCode com extensão SQL
+Outro cliente MySQL compatível
+=======================================================================
+2. Conectar ao servidor MySQL
+Acesse sua conexão local (geralmente localhost com usuário root).
+Insira sua senha configurada no MySQL.
+3. Carregar o arquivo script.sql
 No Workbench:
-1. Vá em **File** > **Open SQL Script**  
-2. Selecione o arquivo `script.sql` deste repositório  
-3. O conteúdo será exibido no editor SQL
-
-### 4. Executar o script completo
-Clique no ícone de **raio (Execute)** ou use o atalho **CTRL + SHIFT + Enter**.
-
+Vá em File > Open SQL Script
+Selecione o arquivo script.sql deste repositório
+O conteúdo será exibido no editor SQL
+=======================================================================
+4. Executar o script completo
+Clique no ícone de raio (Execute) ou use o atalho CTRL + SHIFT + Enter.
 O script realiza automaticamente:
-- Criação do banco: `SistemaBibliotecaComunitaria`
-- Criação de todas as tabelas (DDL)
-- Inserção dos dados principais (INSERT)
-- Atualizações de dados (UPDATE)
-- Remoções de registros (DELETE)
-- Consultas SQL com diferentes cláusulas (SELECT, JOIN, WHERE, ORDER BY, LIMIT, GROUP BY)
-
-### 5. Conferir se as tabelas foram criadas
-Execute o comando:
-
-```sql
+Criação do banco: SistemaBibliotecaComunitaria
+Criação de todas as tabelas (DDL)
+Inserção dos dados principais (INSERT)
+Atualizações de dados (UPDATE)
+Remoções de registros (DELETE)
+Consultas SQL com diferentes cláusulas (SELECT, JOIN, WHERE, ORDER BY, LIMIT, GROUP BY)
+====================================================================================
+5. Conferir se as tabelas foram criadas
 SHOW TABLES;
 
 SELECT * FROM Livros;
 SELECT * FROM Leitores;
 SELECT * FROM Emprestimo;
-
-
-
+---
 # ✅ Conclusão
 
 A Atividade 4 foi desenvolvida utilizando:
