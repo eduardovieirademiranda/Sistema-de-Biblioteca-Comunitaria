@@ -37,22 +37,22 @@ As tabelas foram criadas no MySQL seguindo o modelo lógico do minimundo.
 ## 🧩 2. Inserção de Dados (INSERT)
 
 ### ✔ Inserindo Biblioteca
-![Insert Biblioteca](imagens/insert_biblioteca.png)
+![Insert Biblioteca](imagens/Insert_biblioteca.PNG)
 
 ### ✔ Inserindo Livros
-![Insert Livros](imagens/insert_livros.png)
+![Insert Livros](imagens/Insert_Livros.PNG)
 
 ### ✔ Inserindo Leitores
-![Insert Leitores](imagens/insert_leitores.png)
+![Insert Leitores](imagens/Insert_Leitores.PNG)
 
 ### ✔ Inserindo Funcionários
-![Insert Funcionarios](imagens/insert_funcionario.png)
+![Insert Funcionarios](imagens/Insert_Funcionario.PNG)
 
 ### ✔ Inserindo Empréstimos
-![Insert Emprestimo](imagens/insert_emprestimo.png)
+![Insert Emprestimo](imagens/Insert_Emprestimo.PNG)
 
 ### ✔ Inserindo Itens de Empréstimo
-![Insert ItemEmpre](imagens/insert_itemempre.png)
+![Insert ItemEmpre](imagens/Insert_ItemEmpre.PNG)
 
 ---
 
@@ -114,6 +114,6 @@ Todo o banco de dados foi criado, populado e manipulado com sucesso, atendendo i
 
 ---
 
-✍️ **Aluno:** Eduardo Miranda  
+✍️ **Aluno:** Eduardo Vieira de Miranda  
 📅 **Curso:** Análise e Desenvolvimento de Sistemas  
 🏫 **Instituição:** Cruzeiro do Sul Virtual  
