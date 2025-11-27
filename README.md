@@ -135,10 +135,14 @@ O script realiza automaticamente:
 ### 5. Conferir se as tabelas foram criadas
 Execute o comando:
 
-``sql
+```sql
 SHOW TABLES;
 
----
+SELECT * FROM Livros;
+SELECT * FROM Leitores;
+SELECT * FROM Emprestimo;
+
+
 
 # ✅ Conclusão
 
